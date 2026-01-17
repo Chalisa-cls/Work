@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 0;
+            padding: 40px 20px;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        .profile-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 10px;
+            overflow: hidden;
+        }
+
+        .profile-img img {
+            width: 80%;
+            height: auto;
+            margin-top: 15px;
+        }
+
+        .profile-label {
+            font-weight: bold;
+            font-size: 14px;
+            margin: 0;
+        }
+
+        .alt-text {
+            color: #a0a0a0;
+            font-size: 13px;
+            margin: 0;
+        }
+
+        /* ส่วนข้อความแนะนำตัว */
+        .bio-section {
+            max-width: 500px;
+            text-align: left; /* ข้อความชิดซ้ายแต่กลุ่มก้อนอยู่ตรงกลาง */
+            line-height: 1.4;
+            margin-bottom: 25px;
+        }
+
+        /* ส่วนรายการสิ่งที่ชอบ */
+        .enjoy-section {
+            width: 100%;
+            max-width: 500px;
+            text-align: left;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        ol {
+            margin-left: 20px;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Personal Profile</h1>
+
+    <div class="profile-container">
+        <div class="profile-img">
+            <img src="Photo.jpg" alt="Profile image">
+        </div>
+        <p class="profile-label">PROFILE PIC</p>
+        <p class="alt-text">alt"Profile image</p>
+    </div>
+
+    <div class="bio-section">
+        Hello! I'm [Chalisa Krittayophat] I am beginer web<br>
+        developer learning HTML, CSS, and Jaascript.<br>
+        I enjoy creating simple simple web pages<br>
+        and brining ideas to life through code.
+    </div>
+
+    <div class="enjoy-section">
+        <h3>Things I Enjoy:</h3>
+        <ol>
+            <li>Reading fantasy books</li>
+            <li>Hiking and nature walks</li>
+            <li>Expertimitentg with new recipes</li>
+        </ol>
+    </div>
+
+</body>
+</html>
